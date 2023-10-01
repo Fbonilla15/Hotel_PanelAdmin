@@ -2,7 +2,7 @@
 Admin. Panes Control de hoteles
 
 
-#Integrantes
+# Integrantes
 Javier Hernandez Guzman
 Andres Felipe Garces Álvarez
 Marcelo Andres Benitez Ceballos
