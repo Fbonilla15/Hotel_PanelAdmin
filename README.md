@@ -1,5 +1,5 @@
 # Hotel_PanelAdmin
-Admin. Panes Control de hoteles
+Admin. Panel Control de hoteles
 
 
 # Integrantes
