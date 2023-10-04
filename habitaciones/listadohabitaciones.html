@@ -66,8 +66,55 @@
             </div>
         </div>
     </div>
+    <div class="contenido ml-0 sm:ml-64 ease-in-out transition-all duration-500 p-10" id="contenido">
+        <h1 class="text-4xl font-bold">Detalles del hotel</h1>
+        <div class="container mx-auto mt-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="relative">
+                    <input type="nomber" id="nit"
+                        class="bg-indigo-50 block rounded-t-lg px-2.5 pb-2.5 pt-5 w-full text-sm text-gray-900 border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 peer"
+                        placeholder=" " value="846123002-2" disabled/>
+                    <label for="nit"
+                        class="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-focus:text-indigo-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">NIT</label>
+                </div>
+                <div class="relative">
+                    <input type="text" id="nombre"
+                        class="bg-indigo-50 block rounded-t-lg px-2.5 pb-2.5 pt-5 w-full text-sm text-gray-900 border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 peer"
+                        placeholder=" " value="GHL Hotel Barranquilla" disabled/>
+                    <label for="nombre"
+                        class="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-focus:text-indigo-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Nombre del hotel</label>
+                </div>
+                <div class="relative">
+                    <input type="text" id="ciudad"
+                        class="bg-indigo-50 block rounded-t-lg px-2.5 pb-2.5 pt-5 w-full text-sm text-gray-900 border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 peer"
+                        placeholder=" " value="Barranquilla" disabled/>
+                    <label for="ciudad"
+                        class="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-focus:text-indigo-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Ciudad</label>
+                </div>
+                <div class="relative">
+                    <input type="text" id="direccion"
+                        class="bg-indigo-50 block rounded-t-lg px-2.5 pb-2.5 pt-5 w-full text-sm text-gray-900 border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 peer"
+                        placeholder=" " value="Calle 106 # 50-11 Villa Santos" disabled/>
+                    <label for="direccion"
+                        class="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-focus:text-indigo-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Dirección</label>
+                </div>
+                <div class="relative">
+                    <input type="text" id="habitaciones"
+                        class="bg-indigo-50 block rounded-t-lg px-2.5 pb-2.5 pt-5 w-full text-sm text-gray-900 border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 peer"
+                        placeholder=" " value="226" disabled/>
+                    <label for="habitaciones"
+                        class="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-focus:text-indigo-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Numero de habitaciones</label>
+                </div>
+            </div>
 
-    <div class="contenido ml-0 sm:ml-64 ease-in-out transition-all duration-500 p-5" id="contenido">
+           
+          
+           
+        </div>
+    </div>
+
+
+    <div class="contenido mt-0 ml-0 sm:ml-64 ease-in-out transition-all duration-500 p-5" id="contenido">
         <h1 class="text-4xl font-bold">Listado de habitaciones</h1>
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-16">
             <table class="w-full text-sm text-left bg-indigo-600 text-dark ">
@@ -108,7 +155,14 @@
                 </tbody>
             </table>
         </div>
+
+        <div class="flex justify-between items-center mt-10 mb-24 flex-wrap">
+            <a href="../detalles.html" type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Regresar</a>
+           
+        </div>
+
     </div>
+
 
 
 
